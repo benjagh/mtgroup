@@ -58,9 +58,10 @@ if($_SESSION["s_usuario"] === null){
         <a class="nav-link" href="index.php">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
+          
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">
+        <a class="nav-link" href="Youtube1/index.php">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Agregar videos</span></a>
       </li>

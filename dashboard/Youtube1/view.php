@@ -14,15 +14,32 @@ $fetch_video = $Fun_call->select_order('videos', 'v_id', 'DESC');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/MTGroup-removebg-preview.png">
     <title>MTGroup - Cursos musicales</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script defer src="https://friconix.com/cdn/friconix.js"> </script>
     <link rel="stylesheet" href="Stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+<header class="hero">
+    
 
+    <nav class="nav container">
+      <figure class="nav__logo">
+        <img src="images/MTGroup-removebg-preview.png" class="nav__img">
+      </figure>
+
+      <a href="../../index.php" class="nav__link">Inicio</a>
+      <a href="../../index.php#team" class="nav__link">Equipo</a>
+      <a href="../../nosotros.php" class="nav__link">Nosotros</a>
+      <a href="../../login.php" class="nav__link">Login</a>
+    </nav>
+
+
+  </header>
     <div class="container-fluid">
 
         <div class="container">
@@ -42,9 +59,7 @@ $fetch_video = $Fun_call->select_order('videos', 'v_id', 'DESC');
                           <div class="set-box youtube-video-r">
                               <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $video_data['v_url']; ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           </div>
-                          <div class="card-body pt-2 pb-2">
-                            <h6 class="card-title"><?php echo $video_data['v_date']; ?></h6>
-                          </div>
+                          
                         </div>
                     </div>    
                     <?php }} ?>
@@ -55,7 +70,43 @@ $fetch_video = $Fun_call->select_order('videos', 'v_id', 'DESC');
 
     </div>
 
+    <footer class="footer ">
+    <section class="footer__container container">
+      
 
+      <div class="footer__items">
+        <p class="footer__contact footer__contact--first">
+          <img src="images/icon-location.svg" class="footer__icon">
+          29 sur 18 1/2 poniente #0935 Talca, Chile
+        </p>
+  
+  
+       
+  
+        <nav class="footer__nav">
+          <a href="#" class="footer__link">Inicio</a>
+          <a href="nosotros.php" class="footer__link">Nosotros</a>
+          
+
+          
+        </nav>
+  
+        <nav class="footer__nav">
+          <a href="#team" class="footer__link">Equipo</a>
+          <a href="#contacto" class="footer__link">Contacto</a>
+        </nav>
+  
+        <div class="footer__social">
+          <a href="#" class="footer__media"><img src="images/fb.svg" class="footer__img"></a>
+          <a href="#" class="footer__media"><img src="images/twitter.svg" class="footer__img"></a>
+          <a href="#" class="footer__media footer__media--last"><img src="images/instagram.svg" class="footer__img"></a>
+        </div>
+      </div>
+      
+    </section>
+
+
+  </footer>
 
 
 <!--End - Delete - Modal -->

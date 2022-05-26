@@ -18,7 +18,8 @@
       </figure>
 
       <a href="dashboard/Youtube1/view.php" class="nav__link">Cursos musicales</a>
-      <a href="#" class="nav__link">Equipo</a>
+      <a href="#team" class="nav__link">Equipo</a>
+      <a href="nosotros.php" class="nav__link">Nosotros</a>
       <a href="login.php" class="nav__link">Login</a>
     </nav>
 
@@ -35,70 +36,7 @@
   </header>
 
   <main class="main">
-    <section class="about container">
-
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-any-file.svg" class="about__img">
-        </figure>
-
-        <h3 class="about__title"> Access your files, anywhere</h3>
-
-        <p class="about__paragraph"> The ability to use a smartphone, tablet, or computer to access your account means your 
-          files follow you everywhere.</p>
-      </article>
-
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-security.svg" class="about__img">
-        </figure>
-
-        <h3 class="about__title">  Security you can trust
-        </h3>
-
-        <p class="about__paragraph"> 2-factor authentication and user-controlled encryption are just a couple of the security 
-          features we allow to help secure your files.
-        </p>
-      </article>
-
-      
-
  
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-collaboration.svg" class="about__img">
-        </figure>
-
-        <h3 class="about__title">Real-time collaboration</h3>
-
-        <p class="about__paragraph">
-          Securely share files and folders with friends, family and colleagues for live collaboration. 
-          No email attachments required.</p>
-      </article>
-
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-any-file.svg" class="about__img">
-        </figure>
-
-        <h3 class="about__title">  Store any type of file</h3>
-
-        <p class="about__paragraph">  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-          file types to be securely stored and shared.</p>
-      </article>
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-any-file.svg" class="about__img">
-        </figure>
-
-        <h3 class="about__title">  Store any type of file</h3>
-
-        <p class="about__paragraph">  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-          file types to be securely stored and shared.</p>
-      </article>
-
-
-    </section>
 
     <section class="productive container">
 
@@ -108,16 +46,14 @@
 
       <div class="productive__texts">
 
-        <h3 class="productive__title"> Stay productive, wherever you are</h3>
+        <h3 class="productive__title"> Conoce nuestros cursos!!</h3>
 
-        <p class="productive__paragraph"> Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-          storage needs.</p>
+        <p class="productive__paragraph"> Nuestros profesionales han desarrollado videos explicativos e introductorios en las diversas ramas de instrumentos en los que se especializan.</p>
 
-        <p class="productive__paragraph">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-          attachments required.</p>
+        
 
-        <a href="#" class="productive__cta">  
-          See how Fylo works
+        <a href="dashboard/Youtube1/view.php" class="productive__cta">  
+          Ver cursos
           <img src="images/icon-arrow.svg" class="productive__arrow">
         </a>
 

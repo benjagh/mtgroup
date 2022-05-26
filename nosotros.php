@@ -16,10 +16,11 @@
       <figure class="nav__logo">
         <img src="images/MTGroup-removebg-preview.png" class="nav__img">
       </figure>
-
-      <a href="#" class="nav__link">Features</a>
-      <a href="#" class="nav__link">Team</a>
-      <a href="#" class="nav__link">Sign In</a>
+      <a href="index.php" class="nav__link">Inicio</a>
+      <a href="dashboard/Youtube1/view.php" class="nav__link">Cursos musicales</a>
+      <a href="index.php#team" class="nav__link">Equipo</a>
+      <a href="nosotros.php" class="nav__link">Nosotros</a>
+      <a href="login.php" class="nav__link">Login</a>
     </nav>
 
   </header>

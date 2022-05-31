@@ -14,6 +14,8 @@ $fetch_video = $Fun_call->select_order('videos', 'v_id', 'DESC');
                         <th scope="col">Videos</th>
                         <th scope="col">Fecha</th>
                         <th scope="col">Acción</th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col">Comentario</th>
                       </tr>
                     </thead>
                     <tbody>

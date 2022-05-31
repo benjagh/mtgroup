@@ -56,8 +56,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
-  background: linear-gradient(to right, #00dbde, #fc00ff);
+  background: -webkit-linear-gradient(to right, #005c5e, #fc00ff);
+  background: linear-gradient(to right, #0a8385, #fc00ff);
 }
 
 .wrap-login {

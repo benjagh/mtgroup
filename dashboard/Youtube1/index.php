@@ -35,7 +35,7 @@
                 <form method="post" id="video-ins">
                     <div class="form-row justify-content-center">
                         <div class="form-group col-sm-12 col-lg-6 mb-0">
-                            <input type="text" class="form-control" id="video_code" placeholder="Por favor ingresa la URL del video de YouTube">
+                            <input type="text" class="form-control" id="video_code" placeholder="Agregar id de video para subir, EJ:youtu.be/bJl-avjRgzU  id: bJl-avjRgzU ">
                         </div>
                         <div class="form-group col-sm-12 col-lg-2 mb-0">
                             <input type="submit" value="Subir video" class="btn btn-outline-dark" data-toggle="modal"
@@ -81,7 +81,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Update Video</h5>
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Actualizar video</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -95,18 +95,18 @@
                     <div class="modal-body">
                         <div class="form-row justify-content-center">
                             <div class="form-group col-sm-12 col-lg-6 mb-0">
-                                <input type="text" class="form-control" id="update_url" placeholder="Enter New Video URL">
+                                <input type="text" class="form-control" id="update_url" placeholder="Ingrese nuevo id ">
                             </div>
                             <div class="form-group col-sm-12 col-lg-2 mb-0">
                                 <input type="hidden" class="form-control" id="update_no" >
-                                <input type="submit" value="Update" class="btn btn-outline-success">
+                                <input type="submit" value="Actualizar" class="btn btn-outline-success">
                             </div>
                         </div>
                         <span class="text-center mt-1" id="upd_status" style="display: block;"></span>
                     </div>
                 </form>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal" id="update_reset">Close</button>
+                    <button type="button" class="btn btn-outline-dark" data-dismiss="modal" id="update_reset">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
                         $json_res = JSON.parse(response);
                         if($json_res.status == 101){
                             $('#load_videos').load('Ajax/Load_gallery.php');
-                            $('#ins_status').text('Successfully Video Added');
+                            $('#ins_status').text('Video agregado correctamente');
                             $("#video-ins").trigger("reset");
                         }
                         else{

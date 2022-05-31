@@ -81,7 +81,7 @@ body{
 
 .nav__link{
     display: inline-block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin-left: .8em;
 }
@@ -91,7 +91,7 @@ body{
 }
 
 .hero__main{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: grid;
     gap: 1.5em;
     text-align: center;
@@ -129,7 +129,7 @@ body{
 }
 
 .about{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -336,7 +336,7 @@ body{
 }
 
 .footer__link{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
